@@ -1,20 +1,11 @@
-console.log('Hello world');
-
 const utils = require("./utils");
 
-console.log(utils);
+const res = utils.multiply(3, 2);
 
-const res = utils.multiply(1, 2);
+console.log('Res', res);
 
-console.log('Res', res, utils.age);
+// facendo così, ho importato tutto l'oggetto di utils.
+// e se volessi importare solo il multiply?
 
-const user = {
-    id: 0,
-    name: 'Marco',
-    age: 26,
-    sayHi : () => {
-        console.log('hi');
-    }
-}
-
-user.sayHi();
+const {multiply} = require("./utils");
+console.log('Res', utils.multiply(3, 2));

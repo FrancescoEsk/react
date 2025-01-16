@@ -17,3 +17,9 @@ Quindi, installiamo un package già fatto come **Axios**
 `npm install axios`
 
 fatto ciò, verrà quindi aggiunto al nostro progetto il file **package-lock.json**
+
+# Dipendenze
+
+Quando installo un package nel mio progetto, possiamo notare come viene aggiunta la **dipendenza** nel nostro *package.json* originario
+
+![1737047629880](images/project/1737047629880.png)

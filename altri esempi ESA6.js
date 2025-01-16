@@ -41,3 +41,62 @@ console.log(numbersAbove2);
 /*
 numbers.reduce();
 */
+
+// ESEMPIO Array.find()
+const idFederico = 1;
+
+const users = [
+    {id: 0, username : 'marco_433'},
+    {id: 1, username : 'federico_477'},
+    {id: 2, username : 'elisabetta_322'}
+];
+
+const findFedericoUsernameById = () => {
+    const res = users.find(user => {
+        const isFederico = user.id === idFederico;
+
+        return isFederico;
+    })
+
+    console.log("res", res);
+};
+
+findFedericoUsernameById();
+
+
+
+// ESEMPIO 2
+const user1 = {
+    id : 1,
+    username : 'Marco'
+}
+
+const user2 = {
+    id : 1,
+    username : 'Marco'
+}
+
+console.log(user1 === user2);       // danno entrambi false
+console.log(user1 == user2);        // confronta solo l'oggetto, quindi l'indirizzo di memoria
+
+
+// ESEMPIO 3
+
+const flag = true;
+
+const f1 = () => {
+    console.log("Running f1");
+}
+
+const f2 = () => {
+    console.log("Running f2");
+}
+
+// Classico
+if (flag)
+    f1();
+else
+    f2();
+
+// operatore Ternario
+flag ? f1() : f2();

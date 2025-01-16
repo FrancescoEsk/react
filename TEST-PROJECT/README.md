@@ -10,7 +10,7 @@ Dopo aver fornito come script "dev", con il relativo comando 'node main.js', se 
 `npm run dev`
 Il main del progetto verrà quindi eseguito.
 
-In [questo](https://[https://www.npmjs.com/package/react) sito si possono trovare vari pacchetti già fatti appositi per react
+In [questo](https://www.npmjs.com/package/react) sito si possono trovare vari pacchetti già fatti appositi per react
 
 Quindi, installiamo un package già fatto come **Axios**
 

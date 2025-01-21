@@ -1,11 +1,10 @@
-const utils = require("./utils");
+// con import posso importare codice da altri file, che sia stato inserito export
+import {multiply, divide} from './utils.js';
 
-const res = utils.multiply(3, 2);
+// ATTENZIONE! per usare l'import, va dichiarato nel package.json
+
+const res = multiply(3, 2);
 
 console.log('Res', res);
 
-// facendo così, ho importato tutto l'oggetto di utils.
-// e se volessi importare solo il multiply?
-
-const {multiply} = require("./utils");
-console.log('Res', utils.multiply(3, 2));
+console.log('Res', multiply(3, 2));

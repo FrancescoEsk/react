@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+    color: darkblue;
+}
+li{
+    color: rgb(170, 91, 91);
+}
+
+#ananas {
+    color: rgb(174, 174, 82);
+}
+
+.list-element {
+    color: aqua;
+}

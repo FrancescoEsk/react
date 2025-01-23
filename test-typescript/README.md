@@ -4,6 +4,8 @@
 
 > L’opzione --save-dev indica a npm di aggiungere il pacchetto (in questo caso, typescript) come una dipendenza di sviluppo nel file package.json del tuo progetto.
 
+La differenza sta nel fatto che ciò che mettiamo --save-dev sono le librerie che servono solo a me che devo creare il progetto, mentre i pacchetti installati senza il --save-dev, sono quei pacchetti per cui il progetto, senza di essi, non può funzionare. Ovvero, ciò che il cliente finale deve installare obbligatoriamente per far funzionare il tutto.
+
 D'ora in poi, per utilizzare il comando tsc devo sempre anteporre `npx` prima di ogni comando che utilizza tsc, ad esempio
 
 `npx tsc`

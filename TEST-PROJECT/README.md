@@ -20,6 +20,10 @@ fatto ciò, verrà quindi aggiunto al nostro progetto il file **package-lock.jso
 
 # Dipendenze
 
-Quando installo un package nel mio progetto, possiamo notare come viene aggiunta la **dipendenza** nel nostro *package.json* originario
+Quando installo un package nel mio progetto, possiamo notare come viene aggiunta la **dipendenza** nel nostro *package.json* originario.
 
-![1737047629880](images/project/1737047629880.png)
+```json
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+```

@@ -10,11 +10,11 @@ D'ora in poi, per utilizzare il comando tsc devo sempre anteporre `npx` prima di
 
 ## Per iniziare il progetto, invece
 
-`npm init` ti chiede come compilare il file package.json, gli dai quello che chiede (se non vuoi dare risposta, basta premere invio senza scrivere nulla)
+`npm init` ti chiede come compilare il file package.json, gli dai quello che chiede (se non vuoi dare risposta, basta premere invio senza scrivere nulla).
 
 `npx tsc --init` invece impsota bene il file *package.json*
 
-E quindi, viene creata la cartella del progetto
+E quindi, viene impostato correttamente il progetto.
 
 Nel mentre è consigliato cambiare una riga, togliendo il commento, al file *tsconfig.json*
 

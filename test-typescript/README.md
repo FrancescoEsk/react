@@ -1,6 +1,6 @@
 # Installazione di Typescript nel progetto
 
-`npm install typescript` esegue l'installazione di typescript **solamente nella cartella corrente**
+`npm install --save-dev typescript` esegue l'installazione di typescript **solamente nella cartella corrente**
 
 D'ora in poi, per utilizzare il comando tsc devo sempre anteporre `npx` prima di ogni comando che utilizza tsc, ad esempio
 

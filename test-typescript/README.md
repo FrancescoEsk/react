@@ -1,6 +1,6 @@
 # Installazione di Typescript nel progetto
 
-`npm install typescript`
+`npm install typescript` esegue l'installazione di typescript **solamente nella cartella corrente**
 
 D'ora in poi, per utilizzare il comando tsc devo sempre anteporre `npx` prima di ogni comando che utilizza tsc, ad esempio
 
@@ -8,9 +8,9 @@ D'ora in poi, per utilizzare il comando tsc devo sempre anteporre `npx` prima di
 
 ## Per iniziare il progetto, invece
 
-`npx tsc --init`
+`npm init` ti chiede come compilare il file package.json, gli dai quello che chiede (se non vuoi dare risposta, basta premere invio senza scrivere nulla)
 
-Fatto ciò, ti chiede come compilare il file package.json, gli dai quello che chiede (se non vuoi dare risposta, basta premere invio senza scrivere nulla)
+`npx tsc --init` invece impsota bene il file *package.json*
 
 E quindi, viene creata la cartella del progetto
 

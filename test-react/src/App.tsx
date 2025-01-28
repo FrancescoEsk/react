@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -12,7 +12,15 @@ function App() {
   // setCount è una funzione per cambiare il valore in memoria, non andiamo mai ad accedere noi alla variabile
   // in questo modo, per modificare una variabile, verrà sempre distrutta e ricostruita ogni volta che la cambiamo
 
+  const [Input, setInput] = useState('');
 
+  // const doubleCount = count * 2;
+
+  console.log('ciao')
+  // useMemo devo aggiungerlo al primo import di questo file
+  const doubleCount = useMemo(() => {
+    return count + 2;
+  }, [count]);
 
   /*  potevo anche fare
   const countState = useState(0);
@@ -26,6 +34,7 @@ function App() {
 
   const title = 'Ciao Mondo';
 
+  // render
   return (
     <>
       <div>
@@ -37,16 +46,22 @@ function App() {
         </a>
       </div>
       <h1>React + {title}</h1>
+      <input value={Input} onChange={event => {
+        setInput(event.target.value) // imposto il valore di userInputValue
+      }} />
       <div className="card">
         {/* per utilizzare una variabile javascript nell'xml devo metterla tra {} */}
-        <button onClick={() => 
-          setCount((count) => count + 1)
-          }>
+        <button onClick={() => {
+          setCount((count) => count + 1);
+        }
+        }>
           count is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+        <h2>La moltiplicazione tra {count} e 2 è: {doubleCount}</h2>
+
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more

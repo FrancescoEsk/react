@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #ededed;
+    width: 100%;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 5px;
+}

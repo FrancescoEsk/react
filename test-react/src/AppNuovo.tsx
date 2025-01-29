@@ -1,11 +1,9 @@
-
 import './AppNuovo.css';
 import Navbar from './components/Navbar/Navbar'
 
 function AppNuovo() {
 
-
-
+    // render
     return (
         <div>
             <Navbar> 
@@ -13,11 +11,9 @@ function AppNuovo() {
                     Sono il figlio 1
                 </div>
             </Navbar>
-
             Ciao
         </div>
     );
 }
-
 
 export default AppNuovo;

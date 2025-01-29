@@ -14,9 +14,7 @@ type NavbarItemProps = {
 
 function Navbar(props: NavbarItemProps) {
     
-    
     // render 
-
     return (
         <nav className="navbar">
             <ul className="navbar-list">

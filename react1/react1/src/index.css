@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  padding-inline-start: 0;
+}

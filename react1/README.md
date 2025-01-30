@@ -19,3 +19,11 @@ ReactDOM.createRoot(root).render(
 );
 
 ```
+
+# API
+
+[What is an API? - Application Programming Interface Explained - AWS](https://aws.amazon.com/what-is/api/)
+
+Application Programming Interface
+
+Per provarle in modo carino si può utilzzare Postman

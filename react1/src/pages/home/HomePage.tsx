@@ -8,6 +8,10 @@ function HomePage(){
             <Navbar />
             <h1>HomePage</h1>
             <p>Welcome to the home page</p>
+
+            {/* Ora proviamo a fare una call API */}
+
+            
         </div>
     )
 }

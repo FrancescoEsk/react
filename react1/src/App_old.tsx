@@ -1,19 +1,16 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 
-function AppNuovo() {
+function App() {
 
     // render
     return (
         <div>
             <Navbar> 
-                <div>
-                    Sono il figlio 1
-                </div>
+                    <p>Sono il figlio 1</p>
             </Navbar>
-            Ciao
         </div>
     );
 }
 
-export default AppNuovo;
+export default App;

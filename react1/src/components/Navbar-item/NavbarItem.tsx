@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 // devo dichiarare il tipo per i navabar items in modo da farli funzionare
 type NavbarItemProps = {
     href: string,
@@ -9,9 +11,11 @@ function NavbarItem(props: NavbarItemProps) {
     
     // render
     return (
-        <li key={props.href}>
-            <a href={props.href}> {props.label} </a>
-        </li>
+        <NavLink to={props.href} end>
+            <li key={props.href}>
+                {props.label}
+            </li>
+        </NavLink>
     )
 }
 

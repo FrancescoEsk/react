@@ -3,9 +3,8 @@ import './Navbar.css';
 
 const navbarElements = [
     {label: 'Home', href: '/'},
-    {label: 'Projects', href: '/Projects'},
-    {label: 'Contacts', href: '/Contacts'},
-    {label: 'Blog', href: '/Blog'}
+    {label: 'Projects', href: '/projects'},
+    {label: 'Contacts', href: '/contacts'}
 ]
 
 type NavbarItemProps = {

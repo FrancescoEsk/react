@@ -20,7 +20,7 @@ function Navbar(props: NavbarItemProps) {
                 {
                     navbarElements.map(element => {
                         return (
-                            <NavbarItem href={element.href} label={element.label}/>
+                            <NavbarItem href={element.href} label={element.label} key={element.href}/>
                         )
                     })
                 }

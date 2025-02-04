@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;  /* vh = viewport height   -  ovvero tutta la porzione di schermo che l'utente riesce a vedere */
+    width: 100%;
+    display: flex;              /* or inline-flex */
+    justify-content: center;    /* centra verticalmente */
+    align-items: center;        /* centra orizzontalmente */
+    /* flex css tricks per aiutare a capire i flexbox */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 10px;       /* spazia gli item fra loro . primo valore per righe, secondo per colonne. se ne metto solo uno vale per entrambi*/
+}
+
+.form-button {
+    margin-top: 10px;
+}

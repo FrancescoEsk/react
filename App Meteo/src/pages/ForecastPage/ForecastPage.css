@@ -1,0 +1,9 @@
+.forecast-container {
+    height: 100vh;  /* vh = viewport height   -  ovvero tutta la porzione di schermo che l'utente riesce a vedere */
+    width: 100%;
+    display: flex;              /* or inline-flex */
+    justify-content: center;    /* centra verticalmente */
+    align-items: center;        /* centra orizzontalmente */
+    flex-direction: column;
+    /* flex css tricks per aiutare a capire i flexbox */
+}

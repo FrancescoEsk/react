@@ -16,3 +16,10 @@
 .form-button {
     margin-top: 10px;
 }
+
+.checkbox-rain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;  
+}

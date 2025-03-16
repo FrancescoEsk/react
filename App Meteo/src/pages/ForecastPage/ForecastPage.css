@@ -1,9 +1,26 @@
 .forecast-container {
-    height: 100vh;  /* vh = viewport height   -  ovvero tutta la porzione di schermo che l'utente riesce a vedere */
+    overflow: auto;
+    min-height: 100vh;  /* vh = viewport height   -  ovvero tutta la porzione di schermo che l'utente riesce a vedere */
     width: 100%;
     display: flex;              /* or inline-flex */
     justify-content: center;    /* centra verticalmente */
     align-items: center;        /* centra orizzontalmente */
     flex-direction: column;
     /* flex css tricks per aiutare a capire i flexbox */
+}
+
+.weather-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 5px;
+}
+
+.weather-data-card {
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 12px;
 }
